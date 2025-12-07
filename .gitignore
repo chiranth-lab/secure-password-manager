@@ -1,0 +1,15 @@
+# Exclude all dotfiles/dirs by default
+.*
+
+# Exceptions (we want these in git)
+!.gitignore
+!.github/
+
+# Specific ignores (redundant but explicit)
+vault.db
+__pycache__/
+*.pyc
+.session
+.DS_Store
+.pytest_cache/
+.venv/
